@@ -17,4 +17,4 @@ Reihe M
 
 3. Archivierung von Bildmaterial
 
-Author: Meike Rietz
+Autor: Meike Rietz
