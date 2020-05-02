@@ -5,9 +5,9 @@ In diesem Repositorium werden drei verschiedene Prozesse gelistet und erörtert.
 
 1. Kataloganreicherung durch Metadatenimporte
 
-Flgende Daten werden in den Katalog der Stadtbibliothek Köln importiert:
+Folgende Daten werden in den Katalog der Stadtbibliothek Köln importiert:
 
-Daten der DNB
+Daten der DNB:
 Reihe A
 Reihe N
 Reihe O
