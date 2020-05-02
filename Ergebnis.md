@@ -7,7 +7,7 @@ In diesem Repositorium werden drei verschiedene dieser Stellen gelistet und kurz
 1. Kataloganreicherung durch Metadatenimporte: Folgende Daten werden in den Katalog der Stadtbibliothek Köln importiert
 
 - Daten der DNB (Reihe A, Reihe N, Reihe M, Reihe T)
-Dabei handelt es sich um Katalogdatensätze, die wöchentlich durch das HBZ bereitgestellt werden. Die Reihe N beinhaltet Neuerscheinungen und noch unvollständige Datensätze. Diese Daten werden vor allem für die Lektoratsrecherchen und Bestellungen verwendet. Reihe A binhaltet korrigierte Datensätze, die für die Bestandsrecherchen wichtig sind. Die Reihe M und Reihe T handelt es sich um Datensätze zu Musikalien und Musiktonträgern. Alle Reihen werden in die "TFE", als in das Fremddatenübernahme-Tool des Katalogs geladen, wo sie für die Katalogisierung, für das Lektorat und die Erwerbung einsehbar sind. Die Änderungen aus Reihe A werden ins Live System übertragen.
+Dabei handelt es sich um Katalogdatensätze, die wöchentlich durch das HBZ bereitgestellt werden. Die Reihe N beinhaltet Neuerscheinungen und noch unvollständige Datensätze. Diese Daten werden vor allem für die Lektoratsrecherchen und Bestellungen verwendet. Reihe A binhaltet korrigierte Datensätze, die für die Bestandsrecherchen wichtig sind. Die Reihe M und Reihe T handelt es sich um Datensätze zu Musikalien und Musiktonträgern.¹ Alle Reihen werden in die "TFE", als in das Fremddatenübernahme-Tool des Katalogs geladen, wo sie für die Katalogisierung, für das Lektorat und die Erwerbung einsehbar sind. Die Änderungen aus Reihe A werden ins Live System übertragen.
 
 - Daten von Hugendubel 
 Bei den Metadatenlieferungen der Firma Hugendubel handelt es sich um Datensätze zu bestellten DVDs und Blurays. Sie beinhalten neben zum Beispiel Titel, Schauspieler, Regisseur, Laufzeit und Sprachen eine kurze Zusammenfassung des Inhalts.
@@ -32,3 +32,5 @@ Zukünfig: Filmfried, OverDrive
 3. Archivierung von Bildmaterial
 
 Autor: Meike Rietz
+
+¹https://www.dnb.de/DE/Professionell/Metadatendienste/Metadaten/Nationalbibliografie/nationalbibliografie_node.html
