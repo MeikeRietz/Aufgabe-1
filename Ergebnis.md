@@ -4,7 +4,7 @@ In der Stadtbibliothek Köln kommt es in unterschiedlichen Aufgabengebiete zu de
 In diesem Repositorium werden drei verschiedene dieser Stellen gelistet und kurz erörtert. Der letzte Datenprozess soll eingehend beleuchtet und Verbesserungspotential erkannt werden. 
 
 
-1. Kataloganreicherung durch Metadatenimporte: Folgende Daten werden in den Katalog der Stadtbibliothek Köln importiert
+##1. Kataloganreicherung durch Metadatenimporte: Folgende Daten werden in den Katalog der Stadtbibliothek Köln importiert
 
 - Daten der DNB (Reihe A, Reihe N, Reihe M, Reihe T)
 Dabei handelt es sich um Katalogdatensätze, die wöchentlich durch das HBZ bereitgestellt werden. Die Reihe N beinhaltet Neuerscheinungen und noch unvollständige Datensätze. Diese Daten werden vor allem für die Lektoratsrecherchen und Bestellungen verwendet. Reihe A binhaltet korrigierte Datensätze, die für die Bestandsrecherchen wichtig sind. Die Reihe M und Reihe T handelt es sich um Datensätze zu Musikalien und Musiktonträgern.¹ Alle Reihen werden in die "TFE", als in das Fremddatenübernahme-Tool des Katalogs geladen, wo sie für die Katalogisierung, für das Lektorat und die Erwerbung einsehbar sind. Die Änderungen aus Reihe A werden ins Live System übertragen.
@@ -20,16 +20,27 @@ Die Daten der Divibib beinhalten alle Titel, die in der Onleihe durch die Stadtb
 Zukünfig: Filmfried, OverDrive
 
 
-2. Datenerfassung bei der Benutzeranmeldung: Bei der Benutzeranmeldung werden folgende Daten in der Eingabemaske im Librabry Manegment System "Concerto" erfasst
+##2. Datenerfassung bei der Benutzeranmeldung: Bei der Benutzeranmeldung werden folgende Daten in der Eingabemaske im Librabry Manegment System "Concerto" erfasst
+
+- Name
+- Geburtsdatum
+- Geschlecht
+- Adresse (Straße, Hausnummer, Postleitzahl)
+- Optional: Telefonnummer, E-Mail-Adresse
+
+Bei Kindern und Jugendlichen unter 18 Jahren:
+- Name, Geburtstdatum, Adresse der bürgenden Person oder der erziehungsberechtigten Person
+
+Dauermitglieder:
+- IBAN zur Abbuchung des regelmäßigen Mitgliedsbeitrags 
+
+Folgende Daten werden überprüft, aber nicht erfasst:
+- Bei Personen mit Anrecht auf Ermäßigung: Studierendenausweis, Ausbildungsnachweis, Köln-Pass, Schwerbehindertenausweis
+
+Jeder Datensatz wird an eine 10-stellige Ausweisnummer geknüpft.
 
 
-
-
-
-
-
-
-3. Archivierung von Bildmaterial
+##3. Archivierung von Bildmaterial
 
 Autor: Meike Rietz
 
