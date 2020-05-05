@@ -1,10 +1,10 @@
-**Datenprozesse in der Stadtbibliothek Köln
+## Datenprozesse in der Stadtbibliothek Köln
 
 In der Stadtbibliothek Köln kommt es in unterschiedlichen Aufgabengebiete zu der Erfassung und Bearbeitung von Datenmassen.
 In diesem Repositorium werden drei verschiedene dieser Stellen gelistet und kurz erörtert. Der letzte Datenprozess soll eingehend beleuchtet und Verbesserungspotential erkannt werden. 
 
 
-**1. Kataloganreicherung durch Metadatenimporte: Folgende Daten werden in den Katalog der Stadtbibliothek Köln importiert
+# 1. Kataloganreicherung durch Metadatenimporte: Folgende Daten werden in den Katalog der Stadtbibliothek Köln importiert
 
 _- Daten der DNB (Reihe A, Reihe N, Reihe M, Reihe T)
 Dabei handelt es sich um Katalogdatensätze, die wöchentlich durch das HBZ bereitgestellt werden. Die Reihe N beinhaltet Neuerscheinungen und noch unvollständige Datensätze. Diese Daten werden vor allem für die Lektoratsrecherchen und Bestellungen verwendet. Reihe A binhaltet korrigierte Datensätze, die für die Bestandsrecherchen wichtig sind. Die Reihe M und Reihe T handelt es sich um Datensätze zu Musikalien und Musiktonträgern.¹ Alle Reihen werden in die "TFE", als in das Fremddatenübernahme-Tool des Katalogs geladen, wo sie für die Katalogisierung, für das Lektorat und die Erwerbung einsehbar sind. Die Änderungen aus Reihe A werden ins Live System übertragen.
@@ -20,7 +20,7 @@ _- Munzinger-Daten (Kataloganreicherungen, die auf das Munzinger-Archiv verweise
 _Zukünfig: Filmfried, OverDrive
 
 
-**2. Datenerfassung bei der Benutzeranmeldung: Bei der Benutzeranmeldung werden folgende Daten in der Eingabemaske im Librabry Manegment System "Concerto" erfasst
+# 2. Datenerfassung bei der Benutzeranmeldung: Bei der Benutzeranmeldung werden folgende Daten in der Eingabemaske im Librabry Manegment System "Concerto" erfasst
 
 - Name
 - Geburtsdatum
@@ -42,7 +42,7 @@ Jeder Datensatz wird an eine 10-stellige Ausweisnummer geknüpft.
 Weitere Informationen für Kundinnen und Kunden zur Anmeldung sind auf der Website der Stadtbibliothek Köln zu finden.²
 
 
-**3. Archivierung von Bildmaterial
+# 3. Archivierung von Bildmaterial
 
 Die Stadtbibliothek pflegt im Social Media Bereich folgende Kanäle: Twitter, Facebook, Instagram, YouTube und einen Blog bei Wordpress. Dies führt zwangsläufig dazu, dass Bild- und Videomaterial gesammelt wird, welches für die Social Media Kanäle, aber auch für die Website, Flyer, Plakate, Pressemeldungen etc. verwendet werden kann. 
 
