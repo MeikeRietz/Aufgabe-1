@@ -1,7 +1,7 @@
 # Datenprozesse in der Stadtbibliothek Köln
 
-In der Stadtbibliothek Köln kommt es in unterschiedlichen Aufgabengebiete zu der Erfassung und Bearbeitung von Datenmassen.
-In diesem Repositorium werden drei verschiedene dieser Stellen gelistet und kurz erörtert. Der letzte Datenprozess soll eingehend beleuchtet und Verbesserungspotential erkannt werden. 
+Die Stadtbibliothek Köln ist eine der größten öffentlichen Bibliotheken Deutschlands. Täglich nutzen mehrere Tausend Bibliothekskunden die Einrichtungen der Stadtbibliothek Köln. Um die vielfältigen Dienstleistungen anzubieten, bedarf es enorme Ressourcen an Mitarbeitenden sowie technischer Ausstattung. So kommt es in unterschiedlichen Aufgabengebiete zu der Erfassung und Bearbeitung von Datenmassen.    
+In diesem Repositorium werden vier dieser Aufgabengebiete gelistet und Aufkommen und Umgang mit den Daten kurz erläutert. Der letzte Datenprozess soll eingehend beleuchtet und Verbesserungspotential erkannt werden. 
 
 
 
@@ -10,7 +10,7 @@ In diesem Repositorium werden drei verschiedene dieser Stellen gelistet und kurz
 Folgende Daten werden in den Katalog der Stadtbibliothek Köln importiert
 
 **- Daten der DNB (Reihe A, Reihe N, Reihe M, Reihe T):**  
-Dabei handelt es sich um Katalogdatensätze, die wöchentlich durch das HBZ bereitgestellt werden. Die Reihe N beinhaltet Neuerscheinungen und noch unvollständige Datensätze. Diese Daten werden vor allem für die Lektoratsrecherchen und Bestellungen verwendet. Reihe A binhaltet korrigierte Datensätze, die für die Bestandsrecherchen wichtig sind. Die Reihe M und Reihe T handelt es sich um Datensätze zu Musikalien und Musiktonträgern.¹ Alle Reihen werden in die "TFE", als in das Fremddatenübernahme-Tool des Katalogs geladen, wo sie für die Katalogisierung, für das Lektorat und die Erwerbung einsehbar sind. Die Änderungen aus Reihe A werden ins Live System übertragen.
+Dabei handelt es sich um Katalogdatensätze, die wöchentlich durch das HBZ bereitgestellt werden. Die Reihe N beinhaltet Neuerscheinungen und noch unvollständige Datensätze. Diese Daten werden vor allem für die Lektoratsrecherchen und Bestellungen verwendet. Reihe A beinhaltet korrigierte Datensätze, die für die Bestandsrecherchen wichtig sind. Die Reihe M und Reihe T handelt es sich um Datensätze zu Musikalien und Musiktonträgern.¹ Alle Reihen werden in die "TFE", also in das Fremddatenübernahme-Tool des Katalogs geladen, wo sie für die Katalogisierung, für das Lektorat und die Erwerbung einsehbar sind. Die Änderungen aus Reihe A werden ins Live System übertragen.
 
 **- Daten von Hugendubel:**  
 Bei den Metadatenlieferungen der Firma Hugendubel handelt es sich um Datensätze zu bestellten DVDs und Blurays. Sie beinhalten neben zum Beispiel Titel, Schauspieler, Regisseur, Laufzeit und Sprachen eine kurze Zusammenfassung des Inhalts.
@@ -47,7 +47,44 @@ Jeder Datensatz wird an eine 10-stellige Ausweisnummer geknüpft.
 Weitere Informationen für Kundinnen und Kunden zur Anmeldung sind auf der Website der Stadtbibliothek Köln zu finden.²
 
 
-## 3. Archivierung von Bildmaterial
+## 3. Datenerfassung innerhalb der EDV: Inventar
+
+Die IT-Aufstellung der Stadtbibliothek Köln ist unabhängig vom Rechenzentrum der Stadt Köln, was bedeutet, dass eine hauseigene EDV-Abteilung das System wartet und betreut. Innerhalb dieser Abteilung wird mit dem Managementsystem OTRS⁴ gearbeitet, welches eine Strukturierung von eingehenden Daten innerhalb eines Ticketsystems ermöglicht.
+
+Die EDV-Abteilung der Stadtbibliothek Köln betreibt über 1000 Endgeräte für Mitarbeiter und Bibliothekskunden. Dazu zählen zahlreiche Server, 350 Clients für Mitarbeiter und Kunden, über 30 Selbstbedienungsgeräte für Kundinnen und Kunden, mehrere Hundert Drucker, Bildschirme und vieles mehr. Die EDV-Abteilung ist verantwortlich für die Beschaffung, den Betrieb und die Weiterentwicklung (Austausch der Hardware bei Defekt oder falls veraltet) der Hardwarekomponenten.
+
+Einen großen Bestandteil neben dem Ticketsystem ist also die Datenbank des Inventars. Hier wird die gesamte IT-Infrastruktur inventarisiert in den Gruppen:    
+
+- Computer (Computer und Notebooks)
+- Hardware (Monitore, RFID-Verbuchungsplatten, Handscanner, Magnetkartentastaturen, (Quittungs-)Drucker, iPads und Tablets, Server und Serverkomponenten, Ferseher und Screens etc.)
+- Software (Concerto, Office 2016, Concerto, McAfee etc.)
+- Netzwerk (Kundennetz, Bibliothektsnetz etc.)
+- Standort (Zentralbibliothek (Abteilung Lektorat, etc.) o. Zweigstelle)
+
+Alle Elemente lassen sich beliebig miteinander verknüpfen. Bei dem Datensatz eines regulären Bibliotheks-PCs werden folgende Daten erfasst:
+
+- Name (PC-Kennung, Gliederungskürzel, Seriennumer, Anlagennummer)
+- Verwendungsstatus (Produktiv/Außer Dienst)
+- Anbieter (Herstellername)
+- Model
+- Beschreibung (Vermerk zum Lieferschein)
+- Typ (Blibliotheks-PC/Kunden-PC)
+- Seriennummer
+- Betriebssystem
+- CPU
+- Arbeitspeicher
+- Festplatte
+- IP-Adresse
+- Grafik Adapter
+- Garantie Ablaufdatum
+- Installationsdatum
+
+Der Datensatz wiederum wird mit entsprechenden Hardware-, Software-, Netzwerk- und Standort-Einträgen verknüpft. 
+
+
+
+
+## 4. Archivierung von Bildmaterial
 
 Die Stadtbibliothek pflegt im Social Media Bereich folgende Kanäle: Twitter, Facebook, Instagram, YouTube und einen Blog bei Wordpress. Dies führt zwangsläufig dazu, dass Bild- und Videomaterial gesammelt wird, welches für die Social Media Kanäle, aber auch für die Website, Flyer, Plakate, Pressemeldungen etc. verwendet werden kann. 
 
@@ -55,7 +92,7 @@ Sowohl im Alltag, als auch bei stattfindenden Veranstaltungen, wird Bildmaterial
 
 An dieser Stelle ist eine Verbesserung der Situation unerlässlich. Wünschenswert wäre eine Software, die als Bildarchiv fungiert und somit ein geziletes Suchen nach Bildmaterial möglich macht. Folgende Metadaten wären hierbei notwendig: Datum, Ort, Verschlagwortung (Bsp.: Vorlesen, 3D-Drucker, MINT, Interkulturell etc.), Bildfreigabe (ja, nein, beschränkt) und Autor. 
 
-Denkbar wäre neben der Einigung auf eine einheitliche Ablagestruktur der Einsatz einer kostenpflichtigen Datenbank wie  _Cumulus_ der Firma _Canto_ ⁴.
+Denkbar wäre neben der Einigung auf eine einheitliche Ablagestruktur der Einsatz einer kostenpflichtigen Datenbank wie  _Cumulus_ der Firma _Canto_ ⁵.
 
 
 
@@ -65,5 +102,6 @@ Denkbar wäre neben der Einigung auf eine einheitliche Ablagestruktur der Einsat
 ¹https://www.dnb.de/DE/Professionell/Metadatendienste/Metadaten/Nationalbibliografie/nationalbibliografie_node.html
 ²https://www.stadt-koeln.de/leben-in-koeln/stadtbibliothek/mitgliedschaft
 ³https://de.wikipedia.org/wiki/Network_Attached_Storage
-⁴https://www.canto.com/de/cumulus/
+⁴https://otrs.com/de/home/
+⁵https://www.canto.com/de/cumulus/
 
