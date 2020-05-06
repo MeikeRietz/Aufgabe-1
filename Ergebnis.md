@@ -101,7 +101,7 @@ Denkbar wäre neben der Einigung auf eine einheitliche Ablagestruktur der Einsat
 
 ¹https://www.dnb.de/DE/Professionell/Metadatendienste/Metadaten/Nationalbibliografie/nationalbibliografie_node.html
 ²https://www.stadt-koeln.de/leben-in-koeln/stadtbibliothek/mitgliedschaft
-³https://de.wikipedia.org/wiki/Network_Attached_Storage
+³https://de.wikipedia.org/wiki/Network_Attached_Storage    
 ⁴https://otrs.com/de/home/    
 ⁵https://www.canto.com/de/cumulus/
 
