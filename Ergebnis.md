@@ -99,9 +99,13 @@ Denkbar wäre neben der Einigung auf eine einheitliche Ablagestruktur der Einsat
 
 
 
-¹https://www.dnb.de/DE/Professionell/Metadatendienste/Metadaten/Nationalbibliografie/nationalbibliografie_node.html
-²https://www.stadt-koeln.de/leben-in-koeln/stadtbibliothek/mitgliedschaft
-³https://de.wikipedia.org/wiki/Network_Attached_Storage    
-⁴https://otrs.com/de/home/    
-⁵https://www.canto.com/de/cumulus/
+¹ Deutsche Nationalbibliothek, _Metadienste_     URL:https://www.dnb.de/DE/Professionell/Metadatendienste/Metadaten/Nationalbibliografie/nationalbibliografie_node.html, abgerufen am 06.05.2020    
+² Stadtbibliothek Köln, _Mitgliedschaft_     
+URL:https://www.stadt-koeln.de/leben-in-koeln/stadtbibliothek/mitgliedschaft, abgerufen am 06.05.2020    
+³ Wikipedia, _Network Attached Storage_    
+URL:https://de.wikipedia.org/wiki/Network_Attached_Storage, abgerufen am 06.05.2020        
+⁴ OTRS, _Produktwebsite_    
+URL:https://otrs.com/de/home/, abgerufen am 06.05.2020        
+⁵ Canto, _Cumulus_    
+URL:https://www.canto.com/de/cumulus/, abgerufen am 06.05.2020
 
