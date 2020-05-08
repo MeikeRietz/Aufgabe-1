@@ -6,4 +6,4 @@ Das Repositorium ist in einer Tandemarbeit mit **Britta Lelgemann** entstanden. 
 
 Autorin: **Meike Rietz**
 
-Status: **in Bearbeitung**
+Status: **abgeschlossen**
