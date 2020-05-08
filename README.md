@@ -5,3 +5,5 @@ bei diesem Repositorium handelt es sich um eine Zusammenfassung einzelner Datenp
 Das Repositorium ist in einer Tandemarbeit mit **Britta Lelgemann** entstanden. Ihr Repositorium ist [hier](https://github.com/BLelgemann/malis_aufgabe-T9-1) zu finden.
 
 Autorin: **Meike Rietz**
+
+Status: **in Bearbeitung**
