@@ -7,7 +7,9 @@ In diesem Repositorium werden vier dieser Aufgabengebiete gelistet und Aufkommen
 
 ## 1. Kataloganreicherung durch Metadatenimporte 
 
-Folgende Daten werden in den Katalog der Stadtbibliothek Köln importiert
+Die Metadaten werden entweder über einen FTP-Server-Zugriff beim HBZ heruntergeladen oder durch die entsprechenden Dienstleister zugesandt. Mit der Software wfl-Load werden die Daten in ein dem Kalatog entsprechenden Format konvertiert. Mit der Software Tom21 können die Metadaten anschließend in den Katalog hochgeladen werden.   
+
+Folgende Daten werden importiert: 
 
 **- Daten der DNB (Reihe A, Reihe N, Reihe M, Reihe T):**  
 Dabei handelt es sich um Katalogdatensätze, die wöchentlich durch das HBZ bereitgestellt werden. Die Reihe N beinhaltet Neuerscheinungen und noch unvollständige Datensätze. Diese Daten werden vor allem für die Lektoratsrecherchen und Bestellungen verwendet. Reihe A beinhaltet korrigierte Datensätze, die für die Bestandsrecherchen wichtig sind. Die Reihe M und Reihe T handelt es sich um Datensätze zu Musikalien und Musiktonträgern.¹ Alle Reihen werden in die "TFE", also in das Fremddatenübernahme-Tool des Katalogs geladen, wo sie für die Katalogisierung, für das Lektorat und die Erwerbung einsehbar sind. Die Änderungen aus Reihe A werden ins Live System übertragen.
