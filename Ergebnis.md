@@ -3,9 +3,16 @@
 Die Stadtbibliothek Köln ist eine der größten öffentlichen Bibliotheken Deutschlands. Täglich nutzen mehrere Tausend Bibliothekskunden die Einrichtungen der Stadtbibliothek Köln. Um die vielfältigen Dienstleistungen anzubieten, bedarf es enorme Ressourcen an Mitarbeitenden sowie technischer Ausstattung. So kommt es in unterschiedlichen Aufgabengebiete zu der Erfassung und Bearbeitung von Datenmassen.    
 In diesem Repositorium werden vier dieser Aufgabengebiete gelistet und Aufkommen und Umgang mit den Daten kurz erläutert. Der letzte Datenprozess soll eingehend beleuchtet und Verbesserungspotential erkannt werden. 
 
+**Inhalt:**  
+[1. Kataloganreicherung durch Metadatenimporte](#Metadatenimporte)  
+[2. Datenerfassung bei der Benutzeranmeldung](#Benutzeranmeldung)  
+[3. Datenerfassung innerhalb der EDV: Inventar](#Inventar)  
+[4. Archivierung von Bildmaterial](#Bildmaterial)  
+[Quellen](#Quellen)
 
 
-## 1. Kataloganreicherung durch Metadatenimporte 
+
+## 1. Kataloganreicherung durch Metadatenimporte <a name="Metadatenimporte" /></a>
 
 Die Metadaten werden entweder über einen FTP-Server-Zugriff beim HBZ heruntergeladen oder durch die entsprechenden Dienstleister zugesandt. Mit der Software wfl-Load werden die Daten in ein dem Kalatog entsprechenden Format konvertiert. Mit der Software Tom21 können die Metadaten anschließend in den Katalog hochgeladen werden.   
 
@@ -26,7 +33,7 @@ Die Daten der Divibib beinhalten alle Titel, die in der Onleihe durch die Stadtb
 
 
 
-## 2. Datenerfassung bei der Benutzeranmeldung 
+## 2. Datenerfassung bei der Benutzeranmeldung <a name="Benutzeranmeldung" /></a>
 
 Bei der **Benutzeranmeldung** werden folgende Daten in der Eingabemaske im Librabry Manegment System "Concerto" erfasst:  
 - Name
@@ -49,7 +56,7 @@ Jeder Datensatz wird an eine 10-stellige Ausweisnummer geknüpft.
 Weitere Informationen für Kundinnen und Kunden zur Anmeldung sind auf der Website der Stadtbibliothek Köln zu finden.²
 
 
-## 3. Datenerfassung innerhalb der EDV: Inventar
+## 3. Datenerfassung innerhalb der EDV: Inventar <a name="Inventar" /></a>
 
 Die IT-Aufstellung der Stadtbibliothek Köln ist unabhängig vom Rechenzentrum der Stadt Köln, was bedeutet, dass eine hauseigene EDV-Abteilung das System wartet und betreut. Innerhalb dieser Abteilung wird mit dem Managementsystem OTRS⁴ gearbeitet, welches eine Strukturierung von eingehenden Daten innerhalb eines Ticketsystems ermöglicht.
 
@@ -86,7 +93,7 @@ Der Datensatz wiederum wird mit entsprechenden Hardware-, Software-, Netzwerk- u
 
 
 
-## 4. Archivierung von Bildmaterial
+## 4. Archivierung von Bildmaterial <a name="Bildmaterial" /></a>
 
 Die Stadtbibliothek pflegt im Social Media Bereich folgende Kanäle: Twitter, Facebook, Instagram, YouTube und einen Blog bei Wordpress. Dies führt zwangsläufig dazu, dass Bild- und Videomaterial gesammelt wird, welches für die Social Media Kanäle, aber auch für die Website, Flyer, Plakate, Pressemeldungen etc. verwendet werden kann. 
 
@@ -95,12 +102,11 @@ Sowohl im Alltag, als auch bei stattfindenden Veranstaltungen, wird Bildmaterial
 An dieser Stelle ist eine Verbesserung der Situation unerlässlich. Wünschenswert wäre eine Software, die als Bildarchiv fungiert und somit ein gezieltes Suchen nach Bildmaterial möglich macht. Folgende Metadaten wären hierbei notwendig: Datum, Ort, Verschlagwortung (Bsp.: Vorlesen, 3D-Drucker, MINT, Interkulturell etc.), Bildfreigabe (ja, nein, beschränkt) und Autor. 
 
 Denkbar wäre neben der Einigung auf eine einheitliche Ablagestruktur der Einsatz einer kostenpflichtigen Datenbank wie  _Cumulus_ der Firma _Canto_ ⁵.
-
-
-
-
-
-
+  
+  
+  
+  
+**Quellen:** <a name="Quellen" /></a>  
 ¹ Deutsche Nationalbibliothek, _Metadienste_     URL:https://www.dnb.de/DE/Professionell/Metadatendienste/Metadaten/Nationalbibliografie/nationalbibliografie_node.html, abgerufen am 06.05.2020    
 ² Stadtbibliothek Köln, _Mitgliedschaft_     
 URL:https://www.stadt-koeln.de/leben-in-koeln/stadtbibliothek/mitgliedschaft, abgerufen am 06.05.2020    
