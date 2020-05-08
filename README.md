@@ -1,4 +1,4 @@
-Liebe Leserinnen und Leser,
+Liebe Github-Community,
 
 bei diesem Repositorium handelt es sich um eine Zusammenfassung einzelner Datenprozesse bei der Stadtbibliothek Köln. Die Problematik im Datenprozess der Bildarchivierung wird eingehender beleuchtet und es wird ein konkreter Software-Vorschlag zur Verbesserung der Situation gegeben. 
 
