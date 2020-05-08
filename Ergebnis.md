@@ -90,7 +90,7 @@ Die Stadtbibliothek pflegt im Social Media Bereich folgende Kanäle: Twitter, Fa
 
 Sowohl im Alltag, als auch bei stattfindenden Veranstaltungen, wird Bildmaterial von vielen verschiedenen Personen gesammelt und dezentral - meist lokal auf dem eigenen Büro-PC - abgelegt. Nur selten wird das Bidlmaterial auf dem zentralen NAS³, dem Dateiserver des Betriebs, gespeichert und so für alle Personen zugänglich gemacht. Selbst wenn das Bildmaterial auf dem Netzlaufwerk gespeichert wird, liegt keine einheitliche Struktur zur Ablage vor: Meist werden veranstaltungsbezogene Ordner erstellt, doch dort sind die Bilder selten durch einen speziellen Dateinamen gekennzeichnet oder geben Hinweise auf eine eventuell vorliegende Bildfreigabe. Denn diese ist notwendig, um Bilder konfliktfrei veröffentlichen zu dürfen.
 
-An dieser Stelle ist eine Verbesserung der Situation unerlässlich. Wünschenswert wäre eine Software, die als Bildarchiv fungiert und somit ein geziletes Suchen nach Bildmaterial möglich macht. Folgende Metadaten wären hierbei notwendig: Datum, Ort, Verschlagwortung (Bsp.: Vorlesen, 3D-Drucker, MINT, Interkulturell etc.), Bildfreigabe (ja, nein, beschränkt) und Autor. 
+An dieser Stelle ist eine Verbesserung der Situation unerlässlich. Wünschenswert wäre eine Software, die als Bildarchiv fungiert und somit ein gezieltes Suchen nach Bildmaterial möglich macht. Folgende Metadaten wären hierbei notwendig: Datum, Ort, Verschlagwortung (Bsp.: Vorlesen, 3D-Drucker, MINT, Interkulturell etc.), Bildfreigabe (ja, nein, beschränkt) und Autor. 
 
 Denkbar wäre neben der Einigung auf eine einheitliche Ablagestruktur der Einsatz einer kostenpflichtigen Datenbank wie  _Cumulus_ der Firma _Canto_ ⁵.
 
